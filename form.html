@@ -11,20 +11,20 @@
     <title>Form</title>
 </head>
 <body>
+    <div class="container">
     <form action="/action_page.php">
         <div>
-            <label for="product name" class="form-label">Product name</label>
-            <input type="product name" name="product name" class="form-control">
+            <label for="name" class="form-label">Name</label>
+            <input type="name" name="name" class="form-control">
         </div>
         <div>
             <label for="category" class="form-label">Category</label>
-            <input type="category" name="category" class="form-control" id="category">
-            <select class="form-select">
+            <select id="category" class="form-select">
+                <option></option>
                 <option>Shoes</option>
                 <option>T-shirts</option>
                 <option>Trousers</option>
-                <option>Dresses</option>
-                    
+                <option>Dresses</option>                    
             </select>
         </div>
         <div>
@@ -35,11 +35,11 @@
             <label for="price" class="form-label">Price</label>
             <input type="price" name="price" class="form-control">
         </div>
-        <button type="Add">Add</button>
+        <button>Add Product</button>
 
     </form>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>  
+    <div class="Product"></div>
+</div>
+    <script src="Index.js"></script>  
 </body>
 </html>
