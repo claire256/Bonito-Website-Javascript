@@ -10,9 +10,10 @@
      <link rel="stylesheet" href="style.css">
      <script src="https://kit.fontawesome.com/9ead319fc3.js" crossorigin="anonymous"></script>
      <title>Bonito Shoes</title>
+     <script src="Index.js"></script>
 
 </head>
-<body>
+<body onload="getFunction()">
       <nav class="navbar navbar-expand-lg bg-info">
      <div class="container">
         <a href="#" class="navbar-brand"><h1>Bonito Shoes</h1><h5>Class you can wear</h5></a>
@@ -36,6 +37,9 @@
              <li class="nav-item">
                 <a href="Contact.html" class="nav-link">Contact</a>
              </li>
+             <li class="nav-item">
+               <a href="form.html" class="nav-link">Add Product</a> 
+             </li>
          </ul>
          <section>
 
@@ -48,28 +52,43 @@
          and elegance at an affordable price that comes with guarantee.
       </h6>
     </div>
-    <section class="images ">
-    <div class="container pt-5">  
-    <div class="row">
-      <div class=" col-xs-12  col-md-6 col-lg-3">
-      <img class="item"src="Images/home1.jpg">
-      </div>
+     <section class="images ">
+    <div id="item1" class="container pt-5 d-flex">
+     <!-- <a id="item1" class="d-flex" href="Shop.html"> -->
+     <!-- <div class="card1"> -->
+     <!-- <div class="row">
+      <div class="col-xs-12  col-md-6 col-lg-3"> --> 
+      <!-- <img class="item"src="Images/home1.jpg"> -->
+      <!-- <p id="name"></p>
+      <h5 id="price"></h5> -->
+      <!-- </div> -->
+      <!--- </div> -->
+      <!-- </a> -->
+    </div>
+       
+
+      <!-- <div class="card1">
       <div class="col-lg-3 col-xs-12 col-md-6">
-      <img class="item" height="250" src="Images/home3.jpg">
+       <img class="item" src="Images/home3.jpg">
       </div>
+      </div>
+      <div class="card1">
       <div class="col-lg-3 col-xs-12 col-md-6">
       <img class="item" src="Images/home4.jpg">
       </div>
+      </div>
+      <div class="card1">
       <div class="col-lg-3 col-xs-12 col-md-6">
-      <img class="item" height="250" src="Images/home5.jpg">
+      <img class="item" src="Images/home5.jpg">
       </div>
-      </div>
-    </div>
-      <div class="d-flex justify-content-center pt-5">
+      </div> -->
+
+      <!-- </div>  -->
+      <!-- <div class="d-flex justify-content-center pt-5">
       <a href="Shop.html">
       <button type="button">View More</button>
       </a>
-      </div>
+      </div> -->
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

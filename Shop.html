@@ -10,9 +10,10 @@
      <link rel="stylesheet" href="style.css">
      <script src="https://kit.fontawesome.com/9ead319fc3.js" crossorigin="anonymous"></script>
     <title>Bonito Shoes</title>
+    <script src="Index.js"></script>
 
 </head>
-<body>
+<body onload="getAnotherFunction()">
      <nav class="navbar navbar-expand-lg bg-info">
      <div class="container">
         <a href="#" class="navbar-brand"><h1>Bonito Shoes</h1><h5>Class you can wear</h5></a>
@@ -36,6 +37,8 @@
              <li class="nav-item">
                 <a href="Contact.html" class="nav-link">Contact</a>
              </li>
+             <li class="nav-item">
+               <a href="form.html" class="nav-link">Add Product</a>
          </ul>
 
      </div>    
@@ -43,35 +46,21 @@
     </nav>
         <div class="container content pt-5">
          <div class="row">
-        <div class="col-xs-12 col-md-6 col-lg-3">
-         <img class="shop" height="55%" src="Images/shop1.jpg">
-         <h4>Ugs 150000</h4>
+        <div class="cols-xs-12 col-md-12 col-lg-6 ">
+        <img class="shop" height="80%" src="Images/home1.jpg">
         </div>
-        <div class="col-xs-12 col-md-6 col-lg-3">
-         <img class="shop" src="Images/shop3.jpg">
-         <h4>Ugs 120000</h4>
-        </div>
-        <div  class="col-xs-12 col-md-6 col-lg-3">
-         <img class="shop" src="Images/shop4.jpg">
-         <h4>Ugs 100000</h4>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-3">
-         <img class="shop" src="Images/shop6.jpg">
-         <h4 class="">Ugs 150000</h4>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-3">
-         <img class="shop" src="Images/shop7.jpg">
-         <h4>Ugs 100000</h4>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-3">
-         <img class="shop" src="Images/shop3.jpg">
-         <h4 class="">Ugs 130000</h4>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-3">
-         <img class="shop" height="60%" src="Images/home1.jpg">
-         <h4 class="">Ugs 130000</h4>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-3">
+         <div class="cols-xs-12 col-md-12 col-lg-6">
+         <div class="info">
+         <p id="category"></p>
+         <h3 id="name"></h3>
+         <h2 id="price"></h2>
+         <p id="description"></p>
+         </div>
+         </div>
+        
+        <!-- <img class="item3" src="Images/home1.jpg"> -->
+
+        <!-- <div class="col-xs-12 col-md-6 col-lg-3">
          <img class="shop" src="Images/home3.jpg">
          <h4 class="">Ugs 130000</h4>
         </div>
@@ -79,7 +68,7 @@
          <img class="shop" src="Images/home4.jpg">
          <h4>Ugs 130000</h4>
         </div>
-       </div>
+       </div> -->
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
